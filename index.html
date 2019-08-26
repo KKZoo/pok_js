@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PoK</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="./javascript/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/main.css">
+    
+    <h1 class="header">ファンキル進化ツール</h1>
+  </head>
+  <body>
+  
+  <form name="Strengthen" action="#">
+    <div class="strengthen">
+      <label>強化可能回数:</label>
+      <input type="tel" name="strengthen">
+    </div>
+  </form>
+
+  <form name="F1" action="#">
+    <table class="input-form">
+      <tr class="input-form-contents">
+        <th class="input-form-item">ステータス</th>
+        <th class="input-form-current">現在値</th>
+        <th class="input-form-limit">上限値</th>
+      </tr>
+      <tr class="input-form-item">
+        <th>HP</th>
+        <th class="input-form-current"><input type="tel" name="T[0]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[1]"></th>
+      </tr>
+      <tr class="input-form-item">
+        <th>力</th>
+        <th class="input-form-current"><input type="tel" name="T[2]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[3]"></th>
+      </tr>
+      <tr class="input-form-item">
+        <th>魔</th>
+        <th class="input-form-current"><input type="tel" name="T[4]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[5]"></th>
+      </tr>
+      <tr class="input-form-item">
+        <th>守</th>
+        <th class="input-form-current"><input type="tel" name="T[6]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[7]"></th>
+      </tr>
+      <tr class="input-form-item">
+        <th>精</th>
+        <th class="input-form-current"><input type="tel" name="T[8]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[9]"></th>
+      </tr>
+      <tr class="input-form-item">
+        <th>速</th>
+        <th class="input-form-current"><input type="tel" name="T[10]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[11]"></th>
+      </tr>
+      <tr class="input-form-item">
+        <th>技</th>
+        <th class="input-form-current"><input type="tel" name="T[12]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[13]"></th>
+      </tr>
+      <tr class="input-form-item">
+        <th>運</th>
+        <th class="input-form-current"><input type="tel" name="T[14]"></th>
+        <th class="input-form-limit"><input type="tel" name="T[15]"></th>
+      </tr>
+    </table>
+  </form>
+  <div class="input-dec">
+    <input class="input-dec-button" type="button" value="決定" onclick="arr()">
+  </div>
+
+  </body>
+</html>

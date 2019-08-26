@@ -1,0 +1,28 @@
+.header{
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.strengthen{
+  text-align: center;
+}
+
+.input-form{
+  display: flex;
+  background: #ccc;
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.input-dec{
+  text-align: center;
+}
+
+.input-dec-button{
+  background: #ccc;
+  color: #000;
+  margin-top: 2%;
+}
